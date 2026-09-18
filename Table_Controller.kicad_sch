@@ -7063,7 +7063,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 96.52) (xy 294.64 96.52)
+			(xy 292.1 96.52) (xy 311.15 96.52)
 		)
 		(stroke
 			(width 0)
@@ -7773,7 +7773,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 22.86) (xy 254 22.86)
+			(xy 259.08 22.86) (xy 264.16 22.86)
 		)
 		(stroke
 			(width 0)
@@ -7810,16 +7810,6 @@
 			(type default)
 		)
 		(uuid "4bb7ef2c-1f70-402b-b006-d68e727f4ffe")
-	)
-	(wire
-		(pts
-			(xy 261.62 22.86) (xy 264.16 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bcbf3b5-c19d-43db-b150-00c49525e478")
 	)
 	(wire
 		(pts
@@ -8203,16 +8193,6 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 96.52) (xy 311.15 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6eaa5fdd-4fb5-4e68-b5f0-95419fbd372f")
-	)
-	(wire
-		(pts
 			(xy 226.06 142.24) (xy 237.49 142.24)
 		)
 		(stroke
@@ -8423,7 +8403,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 21.59) (xy 251.46 22.86)
+			(xy 259.08 21.59) (xy 259.08 22.86)
 		)
 		(stroke
 			(width 0)
@@ -16776,118 +16756,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 257.81 22.86 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3d6e7301-3171-4569-a29e-2f5b996efa8f")
-		(property "Reference" "JP31"
-			(at 257.81 18.415 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 257.81 20.32 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 257.81 24.638 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper"
-			(at 257.81 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Config" ""
-			(at 257.81 22.86 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Generic"
-			(at 257.81 22.86 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "Hand cut wire"
-			(at 257.81 22.86 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "42ad4515-5c57-4730-8392-25969cc85f83")
-		)
-		(pin "1"
-			(uuid "85e624af-0ae5-49a3-a9bf-d3842a1f2565")
-		)
-		(instances
-			(project "Table_Controller"
-				(path "/ea8c4f5e-7a49-4faf-a994-dbc85ed86b0a"
-					(reference "JP31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "personal:Cosmetic_GND")
 		(at 43.18 113.03 0)
 		(unit 1)
@@ -18498,118 +18366,6 @@
 			(project "Table_lift"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c"
 					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 298.45 96.52 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp no)
-		(uuid "4da2018c-e35c-430e-9ed9-b82713c3ac48")
-		(property "Reference" "JP35"
-			(at 298.45 92.075 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 298.45 93.98 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Personal:Jumper_0603"
-			(at 298.45 98.298 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 298.45 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper"
-			(at 298.45 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Config" ""
-			(at 298.45 96.52 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 298.45 96.52 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "RC0603JR-130RP"
-			(at 298.45 96.52 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f1bd106e-3e8f-42b9-b108-88aec08721cd")
-		)
-		(pin "1"
-			(uuid "e20f8fe1-b76f-46ef-aab4-9d98d0b82ce9")
-		)
-		(instances
-			(project "Table_Controller"
-				(path "/ea8c4f5e-7a49-4faf-a994-dbc85ed86b0a"
-					(reference "JP35")
 					(unit 1)
 				)
 			)
@@ -33218,7 +32974,7 @@
 	)
 	(symbol
 		(lib_id "personal:Cosmetic_PWR")
-		(at 251.46 21.59 0)
+		(at 259.08 21.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33228,7 +32984,7 @@
 		(dnp no)
 		(uuid "e143afeb-8524-4d53-b7ff-afe5982382a0")
 		(property "Reference" "Pwr043"
-			(at 251.46 17.272 0)
+			(at 259.08 17.272 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -33239,7 +32995,7 @@
 			)
 		)
 		(property "Value" "S19V5"
-			(at 251.46 17.272 0)
+			(at 259.08 17.272 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -33251,7 +33007,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 21.59 0)
+			(at 259.08 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33262,7 +33018,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 21.59 0)
+			(at 259.08 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33273,7 +33029,7 @@
 			)
 		)
 		(property "Description" "Local power symbol (sink), cosmetic use only"
-			(at 251.46 21.59 0)
+			(at 259.08 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33284,7 +33040,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 251.46 21.59 0)
+			(at 259.08 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33295,7 +33051,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 251.46 21.59 0)
+			(at 259.08 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33306,7 +33062,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 251.46 21.59 0)
+			(at 259.08 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
