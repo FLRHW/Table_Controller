@@ -509,7 +509,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Table_Controller.kicad_pro",
+    "filename": "Power_in.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -549,7 +549,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Power_in.step",
       "svg": "",
       "vrml": ""
     },
@@ -685,7 +685,7 @@
         "uuid": "ea8c4f5e-7a49-4faf-a994-dbc85ed86b0a"
       }
     ],
-    "used_designators": "U1,U13,Pwr1-2,Pwr60,Pwr69-74,J1-3,P55-56,P59-60,P63-82,TP25-26,R23-24,JP16,JP18-22,JP24-50",
+    "used_designators": "U1,U13,Pwr1,Pwr60,Pwr69-74,J1-2,P55-56,P59-60,P63-82,TP25-26,R23-24,JP16,JP18-22,JP24-50",
     "variants": []
   },
   "sheets": [

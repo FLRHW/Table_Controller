@@ -5961,6 +5961,238 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "personal:DC_barrel_assy"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -5.588 6.858 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "DC barrel assy"
+				(at -5.588 5.08 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Personal:Dell_barrel_assy"
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DC_barrel_assy_1_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 132 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.524 -0.508)
+					(mid -1.6064 0)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 194 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.524 -1.27)
+					(mid -1.9838 0)
+					(end 1.524 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 132 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 2.54) (xy -2.54 2.54) (xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 0 132 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0.254) (xy 2.794 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 132 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -0.254) (xy 2.794 0.254)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 132 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 2.54) (xy 2.54 2.54) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 194 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -2.54) (xy 2.54 -2.54) (xy 1.524 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "personal:Dell_DC_barrel_jack"
 			(pin_numbers
 				(hide yes)
@@ -7593,6 +7825,12 @@
 		(uuid "f732c365-8c1f-4162-9cda-851a8ba2b55c")
 	)
 	(junction
+		(at 267.97 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8e61399-140b-49b9-a81a-a95d8fce65cb")
+	)
+	(junction
 		(at 240.03 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7639,10 +7877,6 @@
 	(no_connect
 		(at 227.33 134.62)
 		(uuid "746763a5-7fd7-4cc2-a1dc-a5ab153314de")
-	)
-	(no_connect
-		(at 264.16 173.99)
-		(uuid "77650242-768e-4b82-be77-2edef79da3de")
 	)
 	(no_connect
 		(at 274.32 228.6)
@@ -7725,6 +7959,16 @@
 			(type default)
 		)
 		(uuid "07fc3f84-f750-421a-89b2-13f4889695fe")
+	)
+	(wire
+		(pts
+			(xy 264.16 173.99) (xy 267.97 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08eb4f0c-7728-4cc9-9dfc-d725fa5f5d51")
 	)
 	(wire
 		(pts
@@ -8018,6 +8262,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 165.1) (xy 292.1 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24532ec1-a2f4-4a2f-b9cf-e03ef70c762b")
+	)
+	(wire
+		(pts
 			(xy 212.09 142.24) (xy 213.36 142.24)
 		)
 		(stroke
@@ -8188,7 +8442,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 171.45) (xy 267.97 175.26)
+			(xy 267.97 171.45) (xy 267.97 173.99)
 		)
 		(stroke
 			(width 0)
@@ -8688,6 +8942,16 @@
 	)
 	(wire
 		(pts
+			(xy 300.99 215.9) (xy 295.91 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bbbb17b-dce9-4a58-83da-d67e360f9213")
+	)
+	(wire
+		(pts
 			(xy 264.16 171.45) (xy 267.97 171.45)
 		)
 		(stroke
@@ -8898,6 +9162,16 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 215.9) (xy 293.37 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d631fc9-b2b4-48c0-892e-b5db8094233e")
+	)
+	(wire
+		(pts
 			(xy 151.13 100.33) (xy 151.13 86.36)
 		)
 		(stroke
@@ -8978,7 +9252,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 218.44) (xy 320.04 218.44)
+			(xy 311.15 215.9) (xy 320.04 215.9)
 		)
 		(stroke
 			(width 0)
@@ -9095,6 +9369,16 @@
 			(type default)
 		)
 		(uuid "6db2daa7-0597-496f-8a73-c3da0db5915b")
+	)
+	(wire
+		(pts
+			(xy 293.37 215.9) (xy 295.91 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dfd4755-9d6b-4a92-9450-b60b5398f567")
 	)
 	(wire
 		(pts
@@ -9475,6 +9759,16 @@
 			(type default)
 		)
 		(uuid "8b1a4f07-c227-4c83-a194-d91a9eae4ed6")
+	)
+	(wire
+		(pts
+			(xy 289.56 215.9) (xy 293.37 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b84fb31-5fc0-46ca-a3d7-12c2c5772af4")
 	)
 	(wire
 		(pts
@@ -9878,6 +10172,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 173.99) (xy 292.1 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aff8bd58-96f7-42c9-8f3f-85dedbb3bf5d")
+	)
+	(wire
+		(pts
 			(xy 181.61 68.58) (xy 198.12 68.58)
 		)
 		(stroke
@@ -9958,13 +10262,23 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 215.9) (xy 320.04 215.9)
+			(xy 311.15 218.44) (xy 320.04 218.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b5f3334a-c8ec-4d34-b7ac-3b8def819892")
+	)
+	(wire
+		(pts
+			(xy 292.1 172.72) (xy 288.29 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7590ef1-4e24-4c07-803c-02b070afc16e")
 	)
 	(wire
 		(pts
@@ -10018,13 +10332,23 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 218.44) (xy 300.99 218.44)
+			(xy 288.29 167.64) (xy 292.1 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc4ad5da-4ef3-49ce-bbca-e3b04ee093b7")
+		(uuid "bb3778d2-6e4c-4274-9148-dc80052eb360")
+	)
+	(wire
+		(pts
+			(xy 289.56 218.44) (xy 293.37 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbcab6b7-6f0b-465a-8155-5fc428278c4f")
 	)
 	(wire
 		(pts
@@ -10298,6 +10622,16 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 218.44) (xy 300.99 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf90f855-a25a-41f3-a87b-329db55c1a45")
+	)
+	(wire
+		(pts
 			(xy 264.16 62.23) (xy 264.16 64.77)
 		)
 		(stroke
@@ -10365,6 +10699,16 @@
 			(type default)
 		)
 		(uuid "d25057f3-ff2b-43a9-ad38-c2ad909dd1fb")
+	)
+	(wire
+		(pts
+			(xy 267.97 173.99) (xy 267.97 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d355803a-9a8b-4bf1-93fb-fce944b54e1c")
 	)
 	(wire
 		(pts
@@ -10745,16 +11089,6 @@
 			(type default)
 		)
 		(uuid "f32870be-959e-457c-a26c-1d68fda71944")
-	)
-	(wire
-		(pts
-			(xy 289.56 215.9) (xy 300.99 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4c39e45-947d-4c32-a20c-b2009dcc125e")
 	)
 	(wire
 		(pts
@@ -11296,7 +11630,7 @@
 		(uuid "5b1b88af-5d85-4edc-a104-7ad1d7742f2d")
 	)
 	(label "USB_DP"
-		(at 320.04 218.44 180)
+		(at 320.04 215.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11981,7 +12315,7 @@
 		(uuid "f438974b-330c-4d66-b591-751eb66fb124")
 	)
 	(label "USB_DM"
-		(at 320.04 215.9 180)
+		(at 320.04 218.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17068,6 +17402,88 @@
 		)
 	)
 	(symbol
+		(lib_id "personal:DC_barrel_assy")
+		(at 280.67 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36f32b43-4397-4787-aecc-9d6f86d96bac")
+		(property "Reference" "J3"
+			(at 275.082 163.322 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DC barrel assy"
+			(at 275.082 165.1 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Personal:Dell_barrel_assy"
+			(at 280.67 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 280.67 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "d9592ba6-68f9-48ba-93e0-81563130eed7")
+		)
+		(pin "1"
+			(uuid "5c653395-657d-4305-b5ec-0855b57dda4d")
+		)
+		(instances
+			(project "Table_Controller"
+				(path "/ea8c4f5e-7a49-4faf-a994-dbc85ed86b0a"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "personal:Cosmetic_OUT")
 		(at 48.26 36.83 0)
 		(mirror x)
@@ -18212,7 +18628,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 285.75 215.9 90)
+		(at 285.75 218.44 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18222,7 +18638,7 @@
 		(dnp no)
 		(uuid "40bda281-874b-4445-b9d4-32f54f7f6a06")
 		(property "Reference" "JP47"
-			(at 282.575 214.63 90)
+			(at 282.575 217.17 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -18233,7 +18649,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 288.925 214.63 90)
+			(at 288.925 217.17 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -18244,7 +18660,7 @@
 			)
 		)
 		(property "Footprint" "Personal:Jumper_0603"
-			(at 285.75 217.678 90)
+			(at 285.75 220.218 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18255,7 +18671,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 285.75 215.9 0)
+			(at 285.75 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18266,7 +18682,7 @@
 			)
 		)
 		(property "Description" "Jumper"
-			(at 285.75 215.9 0)
+			(at 285.75 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18277,7 +18693,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 285.75 215.9 90)
+			(at 285.75 218.44 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18288,7 +18704,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 285.75 215.9 90)
+			(at 285.75 218.44 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18299,7 +18715,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RC0603JR-130RP"
-			(at 285.75 215.9 90)
+			(at 285.75 218.44 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18464,7 +18880,7 @@
 				)
 			)
 		)
-		(property "Value" "S19V5"
+		(property "Value" "S19V5_2"
 			(at 267.97 161.036 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -19810,6 +20226,86 @@
 			(project "Table_lift"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "personal:Cosmetic_GND")
+		(at 292.1 173.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e26b17d-c20e-4d05-9ac6-7476f03ee2b7")
+		(property "Reference" "Pwr070"
+			(at 292.1 169.672 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 292.1 177.546 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.127)
+					(color 132 0 0 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 292.1 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 292.1 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95287180-1765-4754-a209-7c531d673a45")
+		)
+		(instances
+			(project "Table_Controller"
+				(path "/ea8c4f5e-7a49-4faf-a994-dbc85ed86b0a"
+					(reference "Pwr070")
 					(unit 1)
 				)
 			)
@@ -25874,7 +26370,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GND_2"
 			(at 267.97 178.816 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -29600,7 +30096,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 285.75 218.44 90)
+		(at 285.75 215.9 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29610,7 +30106,7 @@
 		(dnp no)
 		(uuid "a60b8f71-8fce-4ea2-92f3-b0aadb9499ef")
 		(property "Reference" "JP18"
-			(at 280.162 217.424 90)
+			(at 280.162 214.884 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29620,7 +30116,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 290.068 217.17 90)
+			(at 290.068 214.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29630,7 +30126,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 285.75 220.218 90)
+			(at 285.75 217.678 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29641,7 +30137,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 285.75 218.44 0)
+			(at 285.75 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29652,7 +30148,7 @@
 			)
 		)
 		(property "Description" "Jumper"
-			(at 285.75 218.44 0)
+			(at 285.75 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29663,7 +30159,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 285.75 218.44 90)
+			(at 285.75 215.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29674,7 +30170,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 285.75 218.44 90)
+			(at 285.75 215.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29685,7 +30181,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RC0603JR-130RP"
-			(at 285.75 218.44 90)
+			(at 285.75 215.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30237,7 +30733,7 @@
 	)
 	(symbol
 		(lib_id "personal:Cosmetic_IO")
-		(at 320.04 218.44 0)
+		(at 320.04 215.9 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -30249,7 +30745,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae6d696e-36b1-4563-af90-0151f37f1581")
 		(property "Reference" "P81"
-			(at 320.04 217.424 0)
+			(at 320.04 214.884 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30260,7 +30756,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 318.77 218.44 0)
+			(at 318.77 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30272,7 +30768,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 320.04 218.44 0)
+			(at 320.04 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30283,7 +30779,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 320.04 218.44 0)
+			(at 320.04 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30294,7 +30790,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 320.04 218.44 0)
+			(at 320.04 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30305,7 +30801,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 320.04 218.44 0)
+			(at 320.04 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30316,7 +30812,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 320.04 218.44 0)
+			(at 320.04 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30327,7 +30823,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 320.04 218.44 0)
+			(at 320.04 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33065,7 +33561,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Personal:Display_240x320_ILI9341_2.4in"
+		(property "Footprint" "Personal:Display_240x320_ILI9341_2.4in_no_pads"
 			(at 30.48 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -34394,7 +34890,7 @@
 	)
 	(symbol
 		(lib_id "personal:Cosmetic_IO")
-		(at 320.04 215.9 0)
+		(at 320.04 218.44 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -34406,7 +34902,7 @@
 		(fields_autoplaced yes)
 		(uuid "db953af7-5094-4fd1-beb9-c914ee28bc1c")
 		(property "Reference" "P82"
-			(at 320.04 214.884 0)
+			(at 320.04 217.424 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34417,7 +34913,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 318.77 215.9 0)
+			(at 318.77 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34429,7 +34925,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 320.04 215.9 0)
+			(at 320.04 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34440,7 +34936,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 320.04 215.9 0)
+			(at 320.04 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34451,7 +34947,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 320.04 215.9 0)
+			(at 320.04 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34462,7 +34958,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 320.04 215.9 0)
+			(at 320.04 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34473,7 +34969,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 320.04 215.9 0)
+			(at 320.04 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34484,7 +34980,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 320.04 215.9 0)
+			(at 320.04 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37068,6 +37564,86 @@
 			(project "Table_Controller"
 				(path "/ea8c4f5e-7a49-4faf-a994-dbc85ed86b0a"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "personal:Cosmetic_PWR_SRC")
+		(at 292.1 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa266c37-f259-4388-8ebd-1e95535bfb36")
+		(property "Reference" "Pwr02"
+			(at 292.1 160.782 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "S19V5"
+			(at 292.1 161.036 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.127)
+					(color 132 0 0 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 292.1 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Local power symbol (source), cosmetic use only"
+			(at 292.1 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b6ccbcb5-d356-441f-8076-bfbfdb55aa4b")
+		)
+		(instances
+			(project "Table_Controller"
+				(path "/ea8c4f5e-7a49-4faf-a994-dbc85ed86b0a"
+					(reference "Pwr02")
 					(unit 1)
 				)
 			)
