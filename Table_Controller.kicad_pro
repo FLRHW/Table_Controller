@@ -146,9 +146,9 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_clearance": 0.25,
+        "min_connection": 0.2,
+        "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -160,8 +160,8 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.2,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_annular_width": 0.15,
+        "min_via_diameter": 0.6,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -212,8 +212,7 @@
       "track_widths": [
         0.0,
         0.2,
-        0.25,
-        0.3,
+        0.4,
         0.8
       ],
       "tuning_pattern_settings": {
@@ -250,6 +249,10 @@
         {
           "diameter": 0.6,
           "drill": 0.3
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.5
         }
       ],
       "zones_allow_external_fillets": false
@@ -261,7 +264,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "${REVISION}"
+      "sch_revision": "00"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -685,7 +688,7 @@
         "uuid": "ea8c4f5e-7a49-4faf-a994-dbc85ed86b0a"
       }
     ],
-    "used_designators": "U1,U13,Pwr1-2,Pwr60,Pwr69-74,J1-3,P55-56,P59-60,P63-82,TP25-26,R23-24,JP16,JP18-22,JP24-50",
+    "used_designators": "U1,U13,Pwr1-2,Pwr21,Pwr25,Pwr60,Pwr69-77,J1-3,P55-56,P59-60,P63-82,TP25-26,R23-24,JP16,JP18-22,JP24-50",
     "variants": []
   },
   "sheets": [
