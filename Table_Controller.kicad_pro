@@ -697,7 +697,7 @@
         "uuid": "ea8c4f5e-7a49-4faf-a994-dbc85ed86b0a"
       }
     ],
-    "used_designators": "U1,U13,Pwr1-2,Pwr21,Pwr25,Pwr60,Pwr69-77,J1-3,P55-56,P59-60,P63-82,TP25-26,R23-24,JP16,JP18-22,JP24-50",
+    "used_designators": "Y1,TFT1,L1,#FLG1-2,U1-4,U13,D1,C1-27,Pwr1-65,Pwr69-77,J1-8,P1-49,P55-56,P59-60,P63-82,TP1-16,TP25-26,R1-15,R23-24,JP1-22,JP24-50",
     "variants": []
   },
   "sheets": [
