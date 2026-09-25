@@ -7708,6 +7708,16 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 95.25) (xy 363.22 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02513caf-2594-4c85-b769-3d6c548671fe")
+	)
+	(wire
+		(pts
 			(xy 285.75 72.39) (xy 285.75 69.85)
 		)
 		(stroke
@@ -7725,6 +7735,16 @@
 			(type default)
 		)
 		(uuid "042ab75f-1829-4ae2-8151-f0449e681e26")
+	)
+	(wire
+		(pts
+			(xy 355.6 90.17) (xy 363.22 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0602dc7d-91ec-4340-8dae-8040cf092802")
 	)
 	(wire
 		(pts
@@ -8098,6 +8118,16 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 100.33) (xy 363.22 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "257ee8c5-2150-4b95-b7cc-cdf03e16d44e")
+	)
+	(wire
+		(pts
 			(xy 290.83 22.86) (xy 290.83 39.37)
 		)
 		(stroke
@@ -8325,6 +8355,16 @@
 			(type default)
 		)
 		(uuid "31412450-9760-46ca-b786-e0a3c0408c11")
+	)
+	(wire
+		(pts
+			(xy 355.6 92.71) (xy 363.22 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "317c2873-be55-499d-a581-7d19b0cab7bc")
 	)
 	(wire
 		(pts
@@ -9618,6 +9658,16 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 102.87) (xy 363.22 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e162df8-6cec-4dc5-b69f-be8e3f251d7f")
+	)
+	(wire
+		(pts
 			(xy 134.62 151.13) (xy 125.73 151.13)
 		)
 		(stroke
@@ -9795,6 +9845,16 @@
 			(type default)
 		)
 		(uuid "9b8e286c-ac5e-40c2-b4db-2e4febb7e3d4")
+	)
+	(wire
+		(pts
+			(xy 355.6 97.79) (xy 363.22 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c198dea-18a8-4231-98be-d54527a0f326")
 	)
 	(wire
 		(pts
@@ -13139,6 +13199,100 @@
 			(project "Table_lift"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c"
 					(reference "TP22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Pin")
+		(at 368.3 95.25 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "13b45202-4dbe-4f81-83f9-d7fa457db9ed")
+		(property "Reference" "J9"
+			(at 364.49 84.455 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "JST B6B XH A"
+			(at 364.49 86.995 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical"
+			(at 368.3 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 368.3 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "debac046-8fa6-4bbc-9522-8a42fd5a53f9")
+		)
+		(pin "2"
+			(uuid "b9795c74-1cf1-4ee6-ad2e-b2f7ee882e04")
+		)
+		(pin "3"
+			(uuid "b1c174a3-8b24-4e1f-a547-b43989e5c80f")
+		)
+		(pin "1"
+			(uuid "57d1f8ee-d16f-4129-8f06-929d69ad6709")
+		)
+		(pin "4"
+			(uuid "41309287-eec9-4c10-a58d-2c3f49f24d37")
+		)
+		(pin "5"
+			(uuid "b73f999e-a743-474a-9ace-fc3492d40939")
+		)
+		(instances
+			(project "Table_Controller"
+				(path "/ea8c4f5e-7a49-4faf-a994-dbc85ed86b0a"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -34158,6 +34312,99 @@
 			(project "Table_lift"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c"
 					(reference "P48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Pin")
+		(at 350.52 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f401f688-c3e6-40a5-8c18-c88dd74cf627")
+		(property "Reference" "J10"
+			(at 354.33 84.455 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "JST B6B XH A"
+			(at 354.33 86.995 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical"
+			(at 350.52 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 350.52 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 350.52 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "a1c2c70e-d052-49b4-84db-9b2774681338")
+		)
+		(pin "2"
+			(uuid "819001ce-8586-4aed-8847-6fe4d77cb5f8")
+		)
+		(pin "3"
+			(uuid "cd139fc2-8d90-4cbc-9ba1-edaff101a5e6")
+		)
+		(pin "1"
+			(uuid "5433c05d-1cff-4592-beac-72f8c34fbe92")
+		)
+		(pin "4"
+			(uuid "9a6e67ac-a5ef-49c5-80b0-430f4326ca60")
+		)
+		(pin "5"
+			(uuid "9727e5bb-db37-45c4-9eb2-4ad53748918a")
+		)
+		(instances
+			(project "Table_Controller"
+				(path "/ea8c4f5e-7a49-4faf-a994-dbc85ed86b0a"
+					(reference "J10")
 					(unit 1)
 				)
 			)
